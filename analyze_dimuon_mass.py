@@ -175,6 +175,6 @@ print(" Saved Z-peak plot as dimuon_mass_Zpeak.png")
 fit_mean  = gaussian_fit.GetParameter(1)
 fit_sigma = gaussian_fit.GetParameter(2)
 print(f"Gaussian mean (peak position): {fit_mean:.2f} GeV")
-print(f"📌Gaussian sigma (width):        {fit_sigma:.2f} GeV")
+print(f"Gaussian sigma (width):        {fit_sigma:.2f} GeV")
 
 print("Analysis complete! You can now use the plots in your report.")
